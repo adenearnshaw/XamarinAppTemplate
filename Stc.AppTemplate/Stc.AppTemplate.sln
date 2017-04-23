@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.Reposi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.Contracts", "Core\Stc.AppTemplate.Core.Contracts\Stc.AppTemplate.Core.Contracts.csproj", "{9422F13F-80BB-4BEE-8C31-3BF313FF0304}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.Services", "Core\Stc.AppTemplate.Core.Services\Stc.AppTemplate.Core.Services.csproj", "{C05114C4-457A-477C-8D10-ABC875D43B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{9422F13F-80BB-4BEE-8C31-3BF313FF0304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9422F13F-80BB-4BEE-8C31-3BF313FF0304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9422F13F-80BB-4BEE-8C31-3BF313FF0304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05114C4-457A-477C-8D10-ABC875D43B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05114C4-457A-477C-8D10-ABC875D43B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05114C4-457A-477C-8D10-ABC875D43B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05114C4-457A-477C-8D10-ABC875D43B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +60,6 @@ Global
 		{9652BF7A-0225-4CE0-BD71-BEBA4B3BB958} = {69172ABA-802E-400C-A021-61CAC032AD09}
 		{924B8B4E-A380-48E6-B711-D0826CA15EE1} = {69172ABA-802E-400C-A021-61CAC032AD09}
 		{9422F13F-80BB-4BEE-8C31-3BF313FF0304} = {69172ABA-802E-400C-A021-61CAC032AD09}
+		{C05114C4-457A-477C-8D10-ABC875D43B1C} = {69172ABA-802E-400C-A021-61CAC032AD09}
 	EndGlobalSection
 EndGlobal
