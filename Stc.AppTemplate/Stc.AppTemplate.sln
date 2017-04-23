@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.Api", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.Repository", "Core\Stc.AppTemplate.Core.Repository\Stc.AppTemplate.Core.Repository.csproj", "{924B8B4E-A380-48E6-B711-D0826CA15EE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.Contracts", "Core\Stc.AppTemplate.Core.Contracts\Stc.AppTemplate.Core.Contracts.csproj", "{9422F13F-80BB-4BEE-8C31-3BF313FF0304}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{924B8B4E-A380-48E6-B711-D0826CA15EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{924B8B4E-A380-48E6-B711-D0826CA15EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{924B8B4E-A380-48E6-B711-D0826CA15EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9422F13F-80BB-4BEE-8C31-3BF313FF0304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9422F13F-80BB-4BEE-8C31-3BF313FF0304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9422F13F-80BB-4BEE-8C31-3BF313FF0304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9422F13F-80BB-4BEE-8C31-3BF313FF0304}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,5 +53,6 @@ Global
 		{6D4B18F1-202A-414A-B529-20033DF3CF92} = {69172ABA-802E-400C-A021-61CAC032AD09}
 		{9652BF7A-0225-4CE0-BD71-BEBA4B3BB958} = {69172ABA-802E-400C-A021-61CAC032AD09}
 		{924B8B4E-A380-48E6-B711-D0826CA15EE1} = {69172ABA-802E-400C-A021-61CAC032AD09}
+		{9422F13F-80BB-4BEE-8C31-3BF313FF0304} = {69172ABA-802E-400C-A021-61CAC032AD09}
 	EndGlobalSection
 EndGlobal
