@@ -25,11 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.Servic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CC1A8092-E9B8-4799-B765-801663288865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Apps.Services.Droid", "Apps\Services\Stc.AppTemplate.Apps.Services.Droid\Stc.AppTemplate.Apps.Services.Droid.csproj", "{A1B4B2F3-0D3C-42EB-A0C3-C366D3E1463E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Apps.Services.Ios", "Apps\Services\Stc.AppTemplate.Apps.Services.Ios\Stc.AppTemplate.Apps.Services.Ios.csproj", "{0A1C539F-6BAA-4DD2-B811-C7246515F272}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PlatformServices", "PlatformServices", "{140FDF09-5F80-4475-BDA2-DBFEF3C28C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.PlatformServices.Droid", "PlatformServices\Stc.AppTemplate.PlatformServices.Droid\Stc.AppTemplate.PlatformServices.Droid.csproj", "{FF293B15-EFEE-428D-9BE7-4BFE0056304D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.PlatformServices.iOS", "PlatformServices\Stc.AppTemplate.PlatformServices.iOS\Stc.AppTemplate.PlatformServices.iOS.csproj", "{CC3062DF-ADC0-45FD-9AD3-E714B6EFD3D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.UILogic", "Core\Stc.AppTemplate.Core.UILogic\Stc.AppTemplate.Core.UILogic.csproj", "{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,14 +59,18 @@ Global
 		{C05114C4-457A-477C-8D10-ABC875D43B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05114C4-457A-477C-8D10-ABC875D43B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05114C4-457A-477C-8D10-ABC875D43B1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1B4B2F3-0D3C-42EB-A0C3-C366D3E1463E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1B4B2F3-0D3C-42EB-A0C3-C366D3E1463E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1B4B2F3-0D3C-42EB-A0C3-C366D3E1463E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1B4B2F3-0D3C-42EB-A0C3-C366D3E1463E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A1C539F-6BAA-4DD2-B811-C7246515F272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A1C539F-6BAA-4DD2-B811-C7246515F272}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A1C539F-6BAA-4DD2-B811-C7246515F272}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A1C539F-6BAA-4DD2-B811-C7246515F272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF293B15-EFEE-428D-9BE7-4BFE0056304D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF293B15-EFEE-428D-9BE7-4BFE0056304D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF293B15-EFEE-428D-9BE7-4BFE0056304D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF293B15-EFEE-428D-9BE7-4BFE0056304D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3062DF-ADC0-45FD-9AD3-E714B6EFD3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3062DF-ADC0-45FD-9AD3-E714B6EFD3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3062DF-ADC0-45FD-9AD3-E714B6EFD3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3062DF-ADC0-45FD-9AD3-E714B6EFD3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,7 +84,8 @@ Global
 		{9422F13F-80BB-4BEE-8C31-3BF313FF0304} = {69172ABA-802E-400C-A021-61CAC032AD09}
 		{C05114C4-457A-477C-8D10-ABC875D43B1C} = {69172ABA-802E-400C-A021-61CAC032AD09}
 		{CC1A8092-E9B8-4799-B765-801663288865} = {9F1CD982-DA6A-4AC1-BDE2-1B5882FF0011}
-		{A1B4B2F3-0D3C-42EB-A0C3-C366D3E1463E} = {140FDF09-5F80-4475-BDA2-DBFEF3C28C23}
-		{0A1C539F-6BAA-4DD2-B811-C7246515F272} = {140FDF09-5F80-4475-BDA2-DBFEF3C28C23}
+		{FF293B15-EFEE-428D-9BE7-4BFE0056304D} = {140FDF09-5F80-4475-BDA2-DBFEF3C28C23}
+		{CC3062DF-ADC0-45FD-9AD3-E714B6EFD3D8} = {140FDF09-5F80-4475-BDA2-DBFEF3C28C23}
+		{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B} = {69172ABA-802E-400C-A021-61CAC032AD09}
 	EndGlobalSection
 EndGlobal
