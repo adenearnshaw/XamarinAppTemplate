@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Stc.AppTemplate.Apps.Services.Droid.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Stc.AppTemplate.PlatformServices.Droid.Resource", IsApplication=false)]
 
-namespace Stc.AppTemplate.Apps.Services.Droid
+namespace Stc.AppTemplate.PlatformServices.Droid
 {
 	
 	
