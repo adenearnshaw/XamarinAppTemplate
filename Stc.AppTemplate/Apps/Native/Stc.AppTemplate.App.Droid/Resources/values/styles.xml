@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <style name="AppTheme"
+           parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base"
+           parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorPrimary">@color/headerbackground</item>
+        <item name="android:colorPrimaryDark">@color/darkheaderbackground</item>
+        <item name="android:colorAccent">@color/accentbackground</item>
+        <item name="android:statusBarColor">@color/headerbackground</item>
+        <item name="android:windowBackground">@color/mainbackground</item>
+        <item name="colorControlNormal">@color/mainforeground</item>
+        <item name="colorControlActivated">@color/accentbackground</item>
+        <item name="colorControlHighlight">@color/accentbackground</item>
+    </style>
+
+</resources>

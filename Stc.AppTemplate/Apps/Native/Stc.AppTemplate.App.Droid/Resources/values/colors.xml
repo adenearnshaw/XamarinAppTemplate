@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <color name="headerbackground">#323232</color>
+    <color name="darkheaderbackground">#292929</color>
+    <color name="headerforeground">#FFFFFF</color>
+    <color name="accentbackground">#94D60A</color>
+    <color name="accentpressedbackground">#669209</color>
+    <color name="mainbackground">#FAFAFA</color>
+    <color name="mainforeground">#404040</color>
+</resources>
