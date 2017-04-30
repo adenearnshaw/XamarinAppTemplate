@@ -151,6 +151,16 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.UILogic\Stc.AppTemplate.Core.UILogic.csproj">
+      <Project>{0f47f35a-d5e8-447a-b8ed-79ee835d2e4b}</Project>
+      <Name>Stc.AppTemplate.Core.UILogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms.csproj">
+      <Project>{4c87886a-ce50-42cb-906f-2cdb14fc2d6e}</Project>
+      <Name>Stc.AppTemplate.App.Forms</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
