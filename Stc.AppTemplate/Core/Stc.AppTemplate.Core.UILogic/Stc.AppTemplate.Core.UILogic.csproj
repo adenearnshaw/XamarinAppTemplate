@@ -38,7 +38,7 @@
     <Compile Include="Navigation\IClearableBackstackNavigation.cs" />
     <Compile Include="Navigation\INavigationAware.cs" />
     <Compile Include="Navigation\IViewService.cs" />
-    <Compile Include="Navigation\NavigationUrls.cs" />
+    <Compile Include="Navigation\ViewKeys.cs" />
     <Compile Include="Navigation\ViewService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />

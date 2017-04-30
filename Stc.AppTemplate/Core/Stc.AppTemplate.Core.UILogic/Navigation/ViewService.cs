@@ -15,12 +15,12 @@ namespace Stc.AppTemplate.Core.UILogic.Navigation
 
         public void ReturnToMain()
         {
-            ReturnTo(NavigationUrls.Main);
+            ReturnTo(ViewKeys.Main);
         }
 
         public void ShowMain()
         {
-            Navigate(NavigationUrls.Main);
+            Navigate(ViewKeys.Main);
         }
 
 

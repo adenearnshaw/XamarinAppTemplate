@@ -151,12 +151,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms.csproj">
-      <Project>{8f8d105d-92f9-4588-8265-e644b8e98564}</Project>
-      <Name>Stc.AppTemplate.App.Forms</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

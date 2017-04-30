@@ -31,13 +31,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.PlatformSer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.Core.UILogic", "Core\Stc.AppTemplate.Core.UILogic\Stc.AppTemplate.Core.UILogic.csproj", "{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms.Android", "Apps\Forms\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms.Android\Stc.AppTemplate.App.Forms.Android.csproj", "{18F0BB4C-8250-4EAE-9461-32D2CEB8F0AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms.Android", "Apps\Forms\Stc.AppTemplate.App.Forms.Android\Stc.AppTemplate.App.Forms.Android.csproj", "{18F0BB4C-8250-4EAE-9461-32D2CEB8F0AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms", "Apps\Forms\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms.csproj", "{4C87886A-CE50-42CB-906F-2CDB14FC2D6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms", "Apps\Forms\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms.csproj", "{4C87886A-CE50-42CB-906F-2CDB14FC2D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms.UWP", "Apps\Forms\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms.UWP\Stc.AppTemplate.App.Forms.UWP.csproj", "{782948E9-248D-46EA-8298-4A5985EFCB70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms.UWP", "Apps\Forms\Stc.AppTemplate.App.Forms.UWP\Stc.AppTemplate.App.Forms.UWP.csproj", "{782948E9-248D-46EA-8298-4A5985EFCB70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms.iOS", "Apps\Forms\Stc.AppTemplate.App.Forms\Stc.AppTemplate.App.Forms.iOS\Stc.AppTemplate.App.Forms.iOS.csproj", "{E7CFF00B-71E6-4EB4-BC97-BE7BF8C4F023}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Forms.iOS", "Apps\Forms\Stc.AppTemplate.App.Forms.iOS\Stc.AppTemplate.App.Forms.iOS.csproj", "{E7CFF00B-71E6-4EB4-BC97-BE7BF8C4F023}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stc.AppTemplate.App.Droid", "Apps\Native\Stc.AppTemplate.App.Droid\Stc.AppTemplate.App.Droid.csproj", "{44EA7B8A-75B5-45ED-B10B-496D07B889C4}"
 EndProject
