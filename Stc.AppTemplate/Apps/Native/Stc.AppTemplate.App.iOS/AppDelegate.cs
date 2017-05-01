@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using GalaSoft.MvvmLight.Threading;
 using GalaSoft.MvvmLight.Views;
 using Microsoft.Practices.ServiceLocation;
 using UIKit;
@@ -12,6 +13,8 @@ namespace Stc.AppTemplate.App.iOS
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
+            DispatcherHelper.Initialize(application);
+
             var navService = ServiceLocator.Current.GetInstance<INavigationService>();
             ((NavigationService)navService).Initialize((UINavigationController)Window.RootViewController);
 

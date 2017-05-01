@@ -12,7 +12,7 @@ namespace Stc.AppTemplate.App.iOS.Navigation
         {
             var service = new NavigationService();
 
-            service.Configure(NavigationUrls.Main, typeof(MainViewController));
+            service.Configure(ViewKeys.Main, typeof(MainViewController));
 
             return service;
         }
