@@ -22578,11 +22578,11 @@
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\src\\XamarinAppTemplate\\Stc.AppTemplate\\Core\\Stc.AppTemplate.Core.UILogic\\Stc.AppTemplate.Core.UILogic.csproj": {
-              "projectPath": "C:\\src\\XamarinAppTemplate\\Stc.AppTemplate\\Core\\Stc.AppTemplate.Core.UILogic\\Stc.AppTemplate.Core.UILogic.csproj"
-            },
             "C:\\src\\XamarinAppTemplate\\Stc.AppTemplate\\Core\\Stc.AppTemplate.Common\\Stc.AppTemplate.Common.csproj": {
               "projectPath": "C:\\src\\XamarinAppTemplate\\Stc.AppTemplate\\Core\\Stc.AppTemplate.Common\\Stc.AppTemplate.Common.csproj"
+            },
+            "C:\\src\\XamarinAppTemplate\\Stc.AppTemplate\\Core\\Stc.AppTemplate.Core.UILogic\\Stc.AppTemplate.Core.UILogic.csproj": {
+              "projectPath": "C:\\src\\XamarinAppTemplate\\Stc.AppTemplate\\Core\\Stc.AppTemplate.Core.UILogic\\Stc.AppTemplate.Core.UILogic.csproj"
             }
           }
         }

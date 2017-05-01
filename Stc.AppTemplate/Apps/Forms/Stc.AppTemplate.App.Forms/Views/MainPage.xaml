@@ -3,4 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Stc.AppTemplate.App.Forms.Views.MainPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    <Label HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Text="Main Page" />
 </ContentPage>

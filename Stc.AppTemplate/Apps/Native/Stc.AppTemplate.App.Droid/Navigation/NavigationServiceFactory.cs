@@ -12,7 +12,7 @@ namespace Stc.AppTemplate.App.Droid.Navigation
         {
             var service = new AppCompatNavigationService();
 
-            service.Configure(NavigationUrls.Main, typeof(MainActivity));
+            service.Configure(ViewKeys.Main, typeof(MainActivity));
 
             return service;
         }
