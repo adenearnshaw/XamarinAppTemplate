@@ -122,31 +122,31 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Common\Stc.AppTemplate.Common.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Common\$safeprojectname$.Common.csproj">
       <Project>{6D4B18F1-202A-414A-B529-20033DF3CF92}</Project>
       <Name>Stc.AppTemplate.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.Api\Stc.AppTemplate.Core.Api.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Api\$safeprojectname$.Core.Api.csproj">
       <Project>{9652bf7a-0225-4ce0-bd71-beba4b3bb958}</Project>
       <Name>Stc.AppTemplate.Core.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.Contracts\Stc.AppTemplate.Core.Contracts.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Contracts\$safeprojectname$.Core.Contracts.csproj">
       <Project>{9422f13f-80bb-4bee-8c31-3bf313ff0304}</Project>
       <Name>Stc.AppTemplate.Core.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.Repository\Stc.AppTemplate.Core.Repository.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Repository\$safeprojectname$.Core.Repository.csproj">
       <Project>{924b8b4e-a380-48e6-b711-d0826ca15ee1}</Project>
       <Name>Stc.AppTemplate.Core.Repository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.Services\Stc.AppTemplate.Core.Services.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Services\$safeprojectname$.Core.Services.csproj">
       <Project>{c05114c4-457a-477c-8d10-abc875d43b1c}</Project>
       <Name>Stc.AppTemplate.Core.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.UILogic\Stc.AppTemplate.Core.UILogic.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.UILogic\$safeprojectname$.Core.UILogic.csproj">
       <Project>{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}</Project>
       <Name>Stc.AppTemplate.Core.UILogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\PlatformServices\Stc.AppTemplate.PlatformServices.Droid\Stc.AppTemplate.PlatformServices.Droid.csproj">
+    <ProjectReference Include="..\..\..\PlatformServices\$safeprojectname$.PlatformServices.Droid\$safeprojectname$.PlatformServices.Droid.csproj">
       <Project>{ff293b15-efee-428d-9be7-4bfe0056304d}</Project>
       <Name>Stc.AppTemplate.PlatformServices.Droid</Name>
     </ProjectReference>

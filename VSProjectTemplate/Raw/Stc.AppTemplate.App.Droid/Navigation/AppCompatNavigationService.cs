@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Android.Content;
 using GalaSoft.MvvmLight.Views;
 using $safeprojectname$.Activities;
-using Stc.AppTemplate.Core.UILogic.Navigation;
+using $safeprojectname$.Core.UILogic.Navigation;
 
 namespace $safeprojectname$.Navigation
 {

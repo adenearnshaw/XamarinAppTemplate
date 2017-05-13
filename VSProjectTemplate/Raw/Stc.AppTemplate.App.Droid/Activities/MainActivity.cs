@@ -1,6 +1,6 @@
 ﻿using Android.App;
 using Android.OS;
-using Stc.AppTemplate.Core.UILogic.ViewModels;
+using $safeprojectname$.Core.UILogic.ViewModels;
 
 namespace $safeprojectname$.Activities
 {
