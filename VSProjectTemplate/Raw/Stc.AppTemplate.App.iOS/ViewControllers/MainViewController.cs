@@ -1,6 +1,6 @@
 ﻿
 using System;
-using Stc.AppTemplate.Core.UILogic.ViewModels;
+using $safeprojectname$.Core.UILogic.ViewModels;
 
 namespace $safeprojectname$.ViewControllers
 {

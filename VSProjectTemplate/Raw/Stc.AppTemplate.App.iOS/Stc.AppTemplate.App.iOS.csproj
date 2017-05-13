@@ -128,27 +128,27 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Common\Stc.AppTemplate.Common.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Common\$safeprojectname$.Common.csproj">
       <Project>{6d4b18f1-202a-414a-b529-20033df3cf92}</Project>
       <Name>Stc.AppTemplate.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.Api\Stc.AppTemplate.Core.Api.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Api\$safeprojectname$.Core.Api.csproj">
       <Project>{9652bf7a-0225-4ce0-bd71-beba4b3bb958}</Project>
       <Name>Stc.AppTemplate.Core.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.Repository\Stc.AppTemplate.Core.Repository.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Repository\$safeprojectname$.Core.Repository.csproj">
       <Project>{924b8b4e-a380-48e6-b711-d0826ca15ee1}</Project>
       <Name>Stc.AppTemplate.Core.Repository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.Services\Stc.AppTemplate.Core.Services.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Services\$safeprojectname$.Core.Services.csproj">
       <Project>{c05114c4-457a-477c-8d10-abc875d43b1c}</Project>
       <Name>Stc.AppTemplate.Core.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.UILogic\Stc.AppTemplate.Core.UILogic.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.UILogic\$safeprojectname$.Core.UILogic.csproj">
       <Project>{0f47f35a-d5e8-447a-b8ed-79ee835d2e4b}</Project>
       <Name>Stc.AppTemplate.Core.UILogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\PlatformServices\Stc.AppTemplate.PlatformServices.iOS\Stc.AppTemplate.PlatformServices.iOS.csproj">
+    <ProjectReference Include="..\..\..\PlatformServices\$safeprojectname$.PlatformServices.iOS\$safeprojectname$.PlatformServices.iOS.csproj">
       <Project>{cc3062df-adc0-45fd-9ad3-e714b6efd3d8}</Project>
       <Name>Stc.AppTemplate.PlatformServices.iOS</Name>
       <IsAppExtension>false</IsAppExtension>

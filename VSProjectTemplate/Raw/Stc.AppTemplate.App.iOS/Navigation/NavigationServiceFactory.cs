@@ -1,7 +1,7 @@
 ﻿using GalaSoft.MvvmLight.Views;
 using Microsoft.Practices.ServiceLocation;
 using $safeprojectname$.ViewControllers;
-using Stc.AppTemplate.Core.UILogic.Navigation;
+using $safeprojectname$.Core.UILogic.Navigation;
 using UIKit;
 
 namespace $safeprojectname$.Navigation
