@@ -41,21 +41,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Stc.AppTemplate.Common\Stc.AppTemplate.Common.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Common\$safeprojectname$.Common.csproj">
       <Project>{6d4b18f1-202a-414a-b529-20033df3cf92}</Project>
-      <Name>Stc.AppTemplate.Common</Name>
+      <Name>$safeprojectname$.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Stc.AppTemplate.Core.Api\Stc.AppTemplate.Core.Api.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Core.Api\$safeprojectname$.Core.Api.csproj">
       <Project>{9652bf7a-0225-4ce0-bd71-beba4b3bb958}</Project>
-      <Name>Stc.AppTemplate.Core.Api</Name>
+      <Name>$safeprojectname$.Core.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Stc.AppTemplate.Core.Contracts\Stc.AppTemplate.Core.Contracts.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Core.Contracts\$safeprojectname$.Core.Contracts.csproj">
       <Project>{9422f13f-80bb-4bee-8c31-3bf313ff0304}</Project>
-      <Name>Stc.AppTemplate.Core.Contracts</Name>
+      <Name>$safeprojectname$.Core.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Stc.AppTemplate.Core.Repository\Stc.AppTemplate.Core.Repository.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Core.Repository\$safeprojectname$.Core.Repository.csproj">
       <Project>{924b8b4e-a380-48e6-b711-d0826ca15ee1}</Project>
-      <Name>Stc.AppTemplate.Core.Repository</Name>
+      <Name>$safeprojectname$.Core.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

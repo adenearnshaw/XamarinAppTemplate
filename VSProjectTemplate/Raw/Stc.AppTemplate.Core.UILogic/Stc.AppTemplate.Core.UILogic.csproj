@@ -62,13 +62,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Stc.AppTemplate.Common\Stc.AppTemplate.Common.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Common\$safeprojectname$.Common.csproj">
       <Project>{6D4B18F1-202A-414A-B529-20033DF3CF92}</Project>
-      <Name>Stc.AppTemplate.Common</Name>
+      <Name>$safeprojectname$.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Stc.AppTemplate.Core.Services\Stc.AppTemplate.Core.Services.csproj">
+    <ProjectReference Include="..\$safeprojectname$.Core.Services\$safeprojectname$.Core.Services.csproj">
       <Project>{c05114c4-457a-477c-8d10-abc875d43b1c}</Project>
-      <Name>Stc.AppTemplate.Core.Services</Name>
+      <Name>$safeprojectname$.Core.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
