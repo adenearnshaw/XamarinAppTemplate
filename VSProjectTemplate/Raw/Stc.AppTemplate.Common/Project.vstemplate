@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Stc.AppTemplate.Common</Name>
+    <Description>Common artifacts</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Stc.AppTemplate.Common</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Stc.AppTemplate.Common.csproj" File="Stc.AppTemplate.Common.csproj" ReplaceParameters="true">
+      <Folder Name="Connectivity" TargetFolderName="Connectivity">
+        <ProjectItem ReplaceParameters="true" TargetFileName="INetworkConnectivityService.cs">INetworkConnectivityService.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Events" TargetFolderName="Events">
+        <ProjectItem ReplaceParameters="true" TargetFileName="EventsManager.cs">EventsManager.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IEventsManager.cs">IEventsManager.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Logging" TargetFolderName="Logging">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ILoggerService.cs">ILoggerService.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

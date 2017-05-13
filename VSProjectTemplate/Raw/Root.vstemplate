@@ -1,0 +1,59 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>Xamarin Native Mvvm Template</Name>
+        <Description>Xamarin Native App using a PCL with MvvmLight</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>Stc.AppTemplate</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>TemplateLogo.png</Icon>
+    </TemplateData>
+    <TemplateContent>
+	    <ProjectCollection>
+            <SolutionFolder Name="Apps">
+                <ProjectTemplateLink ProjectName="$projectname$.App.Droid">
+                    Stc.AppTemplate.App.Droid\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.App.iOS">
+                    Stc.AppTemplate.App.iOS\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.App.UWP">
+                    Stc.AppTemplate.App.UWP\Project.vstemplate
+                </ProjectTemplateLink>               
+            </SolutionFolder>
+            <SolutionFolder Name="Core">
+	            <ProjectTemplateLink ProjectName="$projectname$.Common">
+                    Stc.AppTemplate.Common\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.Core.Api">
+                    Stc.AppTemplate.Core.Api\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.Core.Contracts">
+                    Stc.AppTemplate.Core.Contracts\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.Core.Repository">
+                    Stc.AppTemplate.Core.Repository\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.Core.Services">
+                    Stc.AppTemplate.Core.Services\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.Core.UILogic">
+                    Stc.AppTemplate.Core.UILogic\Project.vstemplate
+                </ProjectTemplateLink>
+            </SolutionFolder>
+            <SolutionFolder Name="PlatformServices">
+	            <ProjectTemplateLink ProjectName="$projectname$.PlatformServices.Droid">
+                    Stc.AppTemplate.PlatformServices.Droid\Project.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="$projectname$.PlatformServices.iOS">
+                    Stc.AppTemplate.PlatformServices.iOS\Project.vstemplate
+                </ProjectTemplateLink>
+            </SolutionFolder>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

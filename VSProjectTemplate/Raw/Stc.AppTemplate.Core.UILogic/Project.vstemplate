@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Stc.AppTemplate.Core.UILogic</Name>
+    <Description>ViewModels and UIService interfaces</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Stc.AppTemplate.Core.UILogic</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Stc.AppTemplate.Core.UILogic.csproj" File="Stc.AppTemplate.Core.UILogic.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="CoreBootstrapper.cs">CoreBootstrapper.cs</ProjectItem>
+      <Folder Name="Navigation" TargetFolderName="Navigation">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IClearableBackstackNavigation.cs">IClearableBackstackNavigation.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="INavigationAware.cs">INavigationAware.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IViewService.cs">IViewService.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ViewKeys.cs">ViewKeys.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ViewService.cs">ViewService.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BaseViewModel.cs">BaseViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainViewModel.cs">MainViewModel.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
