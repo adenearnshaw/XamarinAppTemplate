@@ -14,7 +14,7 @@
   <mp:PhoneIdentity PhoneProductId="5214bebd-efda-4934-a43b-85c352a4d69a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Stc.AppTemplate.App.UWP</DisplayName>
+    <DisplayName>$safeprojectname$.App.UWP</DisplayName>
     <PublisherDisplayName>Aden</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="Stc.AppTemplate.App.UWP.App">
+      EntryPoint="$safeprojectname$.App.UWP.App">
       <uap:VisualElements
-        DisplayName="Stc.AppTemplate.App.UWP"
+        DisplayName="$safeprojectname$.App.UWP"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Stc.AppTemplate.App.UWP"
+        Description="$safeprojectname$.App.UWP"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

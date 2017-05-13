@@ -1,6 +1,6 @@
 ﻿using GalaSoft.MvvmLight.Views;
 using $safeprojectname$.Views;
-using Stc.AppTemplate.Core.UILogic.Navigation;
+using $safeprojectname$.Core.UILogic.Navigation;
 
 namespace $safeprojectname$.Navigation
 {

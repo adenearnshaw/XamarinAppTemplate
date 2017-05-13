@@ -108,7 +108,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Stc.AppTemplate.App.UWP_TemporaryKey.pfx" />
+    <None Include="$safeprojectname$.App.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -131,11 +131,11 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Common\Stc.AppTemplate.Common.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Common\$safeprojectname$.Common.csproj">
       <Project>{6d4b18f1-202a-414a-b529-20033df3cf92}</Project>
       <Name>Stc.AppTemplate.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\Stc.AppTemplate.Core.UILogic\Stc.AppTemplate.Core.UILogic.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.UILogic\$safeprojectname$.Core.UILogic.csproj">
       <Project>{0f47f35a-d5e8-447a-b8ed-79ee835d2e4b}</Project>
       <Name>Stc.AppTemplate.Core.UILogic</Name>
     </ProjectReference>

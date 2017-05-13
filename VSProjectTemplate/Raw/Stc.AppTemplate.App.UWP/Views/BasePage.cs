@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using Stc.AppTemplate.Core.UILogic.Navigation;
+using $safeprojectname$.Core.UILogic.Navigation;
 
 namespace $safeprojectname$.Views
 {
