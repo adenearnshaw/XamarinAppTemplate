@@ -16,33 +16,33 @@
     <TemplateContent>
 	    <ProjectCollection>
             <SolutionFolder Name="Apps">
-                <ProjectTemplateLink ProjectName="$projectname$.App.Droid">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.App.Droid">
                     Stc.AppTemplate.App.Droid\Project.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.App.iOS">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.App.iOS">
                     Stc.AppTemplate.App.iOS\Project.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.App.UWP">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.App.UWP">
                     Stc.AppTemplate.App.UWP\Project.vstemplate
                 </ProjectTemplateLink>               
             </SolutionFolder>
             <SolutionFolder Name="Core">
-	            <ProjectTemplateLink ProjectName="$projectname$.Common">
+	            <ProjectTemplateLink ProjectName="$safeprojectname$.Common">
                     Stc.AppTemplate.Common\Project.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.Core.Api">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Core.Api">
                     Stc.AppTemplate.Core.Api\Project.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.Core.Contracts">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Core.Contracts">
                     Stc.AppTemplate.Core.Contracts\Project.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.Core.Repository">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Core.Repository">
                     Stc.AppTemplate.Core.Repository\Project.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.Core.Services">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Core.Services">
                     Stc.AppTemplate.Core.Services\Project.vstemplate
                 </ProjectTemplateLink>
-                <ProjectTemplateLink ProjectName="$projectname$.Core.UILogic">
+                <ProjectTemplateLink ProjectName="$safeprojectname$.Core.UILogic">
                     Stc.AppTemplate.Core.UILogic\Project.vstemplate
                 </ProjectTemplateLink>
             </SolutionFolder>
