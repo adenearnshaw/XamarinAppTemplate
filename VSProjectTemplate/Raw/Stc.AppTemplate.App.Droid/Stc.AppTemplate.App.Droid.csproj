@@ -148,7 +148,7 @@
     </ProjectReference>
     <ProjectReference Include="..\..\..\PlatformServices\$safeprojectname$.PlatformServices.Droid\$safeprojectname$.PlatformServices.Droid.csproj">
       <Project>{ff293b15-efee-428d-9be7-4bfe0056304d}</Project>
-      <Name$safeprojectname$.PlatformServices.Droid</Name>
+      <Name>$safeprojectname$.PlatformServices.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
