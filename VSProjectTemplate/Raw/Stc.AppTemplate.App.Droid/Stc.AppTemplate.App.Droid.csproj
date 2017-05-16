@@ -122,33 +122,33 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Common\$safeprojectname$.Common.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectgroupname$.Common\$safeprojectgroupname$.Common.csproj">
       <Project>{6D4B18F1-202A-414A-B529-20033DF3CF92}</Project>
-      <Name>$safeprojectname$.Common</Name>
+      <Name>$safeprojectgroupname$.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Api\$safeprojectname$.Core.Api.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectgroupname$.Core.Api\$safeprojectgroupname$.Core.Api.csproj">
       <Project>{9652bf7a-0225-4ce0-bd71-beba4b3bb958}</Project>
-      <Name>$safeprojectname$.Core.Api</Name>
+      <Name>$safeprojectgroupname$.Core.Api</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Contracts\$safeprojectname$.Core.Contracts.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectgroupname$.Core.Contracts\$safeprojectgroupname$.Core.Contracts.csproj">
       <Project>{9422f13f-80bb-4bee-8c31-3bf313ff0304}</Project>
-      <Name>$safeprojectname$.Core.Contracts</Name>
+      <Name>$safeprojectgroupname$.Core.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Repository\$safeprojectname$.Core.Repository.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectgroupname$.Core.Repository\$safeprojectgroupname$.Core.Repository.csproj">
       <Project>{924b8b4e-a380-48e6-b711-d0826ca15ee1}</Project>
-      <Name>$safeprojectname$.Core.Repository</Name>
+      <Name>$safeprojectgroupname$.Core.Repository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.Services\$safeprojectname$.Core.Services.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectgroupname$.Core.Services\$safeprojectgroupname$.Core.Services.csproj">
       <Project>{c05114c4-457a-477c-8d10-abc875d43b1c}</Project>
-      <Name>$safeprojectname$.Core.Services</Name>
+      <Name>$safeprojectgroupname$.Core.Services</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Core\$safeprojectname$.Core.UILogic\$safeprojectname$.Core.UILogic.csproj">
+    <ProjectReference Include="..\..\..\Core\$safeprojectgroupname$.Core.UILogic\$safeprojectgroupname$.Core.UILogic.csproj">
       <Project>{0F47F35A-D5E8-447A-B8ED-79EE835D2E4B}</Project>
-      <Name>$safeprojectname$.Core.UILogic</Name>
+      <Name>$safeprojectgroupname$.Core.UILogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\PlatformServices\$safeprojectname$.PlatformServices.Droid\$safeprojectname$.PlatformServices.Droid.csproj">
+    <ProjectReference Include="..\..\..\PlatformServices\$safeprojectgroupname$.PlatformServices.Droid\$safeprojectgroupname$.PlatformServices.Droid.csproj">
       <Project>{ff293b15-efee-428d-9be7-4bfe0056304d}</Project>
-      <Name>$safeprojectname$.PlatformServices.Droid</Name>
+      <Name>$safeprojectgroupname$.PlatformServices.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

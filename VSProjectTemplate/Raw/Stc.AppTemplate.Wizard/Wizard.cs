@@ -31,7 +31,10 @@ namespace Stc.AppTemplate.Wizard
                 projectGroupName.Value = null;
         }
 
-        public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
+        public void RunStarted(object automationObject, 
+                               Dictionary<string, string> replacementsDictionary, 
+                               WizardRunKind runKind, 
+                               object[] customParams)
         {
             if (projectGroupName.Value == null)
             {

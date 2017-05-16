@@ -1,6 +1,6 @@
 ﻿
 using System;
-using $safeprojectname$.Core.UILogic.ViewModels;
+using $safeprojectgroupname$.Core.UILogic.ViewModels;
 
 namespace $safeprojectname$.ViewControllers
 {

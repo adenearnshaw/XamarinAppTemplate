@@ -1,6 +1,6 @@
 ﻿using GalaSoft.MvvmLight.Views;
 using $safeprojectname$.Views;
-using $safeprojectname$.Core.UILogic.Navigation;
+using $safeprojectgroupname$.Core.UILogic.Navigation;
 
 namespace $safeprojectname$.Navigation
 {

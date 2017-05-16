@@ -8,14 +8,14 @@
 
   <Identity
     Name="5214bebd-efda-4934-a43b-85c352a4d69a"
-    Publisher="CN=Aden"
+    Publisher="CN=Saintchubs"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="5214bebd-efda-4934-a43b-85c352a4d69a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>$safeprojectname$.App.UWP</DisplayName>
-    <PublisherDisplayName>Aden</PublisherDisplayName>
+    <PublisherDisplayName>Saintchubs</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

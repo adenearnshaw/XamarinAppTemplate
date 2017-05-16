@@ -5,7 +5,7 @@ using Foundation;
 using GalaSoft.MvvmLight.Helpers;
 using $safeprojectname$.Extensions;
 using $safeprojectname$.Navigation;
-using $safeprojectname$.Core.UILogic.Navigation;
+using $safeprojectgroupname$.Core.UILogic.Navigation;
 using UIKit;
 
 namespace $safeprojectname$.ViewControllers

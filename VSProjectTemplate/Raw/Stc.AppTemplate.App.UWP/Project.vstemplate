@@ -38,7 +38,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="Default.rd.xml">Default.rd.xml</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Stc.AppTemplate.App.UWP_TemporaryKey.pfx">Stc.AppTemplate.App.UWP_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="UWP_TemporaryKey.pfx">UWP_TemporaryKey.pfx</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="ViewModelLocator.cs">ViewModelLocator.cs</ProjectItem>
       <Folder Name="Views" TargetFolderName="Views">
         <ProjectItem ReplaceParameters="true" TargetFileName="BasePage.cs">BasePage.cs</ProjectItem>
@@ -47,4 +47,8 @@
       </Folder>
     </Project>
   </TemplateContent>
+      <WizardExtension>
+        <Assembly>Stc.AppTemplate.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eb3e2b2e74517ed</Assembly>
+        <FullClassName>Stc.AppTemplate.Wizard.SafeProjectGroupName</FullClassName>
+    </WizardExtension>
 </VSTemplate>

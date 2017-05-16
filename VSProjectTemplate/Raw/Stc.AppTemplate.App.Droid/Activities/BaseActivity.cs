@@ -4,7 +4,7 @@ using Android.Views;
 using GalaSoft.MvvmLight.Views;
 using Microsoft.Practices.ServiceLocation;
 using $safeprojectname$.Navigation;
-using $safeprojectname$.Core.UILogic.Navigation;
+using $safeprojectgroupname$.Core.UILogic.Navigation;
 
 namespace $safeprojectname$.Activities
 {

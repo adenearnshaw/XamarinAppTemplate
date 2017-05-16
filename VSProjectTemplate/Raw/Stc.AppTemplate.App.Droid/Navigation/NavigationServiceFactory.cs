@@ -2,7 +2,7 @@
 using GalaSoft.MvvmLight.Views;
 using Microsoft.Practices.ServiceLocation;
 using $safeprojectname$.Activities;
-using $safeprojectname$.Core.UILogic.Navigation;
+using $safeprojectgroupname$.Core.UILogic.Navigation;
 
 namespace $safeprojectname$.Navigation
 {

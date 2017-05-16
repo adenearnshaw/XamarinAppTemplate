@@ -28,4 +28,8 @@
       </Folder>
     </Project>
   </TemplateContent>
+      <WizardExtension>
+        <Assembly>Stc.AppTemplate.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eb3e2b2e74517ed</Assembly>
+        <FullClassName>Stc.AppTemplate.Wizard.SafeProjectGroupName</FullClassName>
+    </WizardExtension>
 </VSTemplate>

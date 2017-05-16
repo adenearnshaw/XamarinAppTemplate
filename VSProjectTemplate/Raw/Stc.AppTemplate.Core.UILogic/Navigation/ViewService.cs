@@ -23,9 +23,6 @@ namespace $safeprojectname$.Navigation
             Navigate(ViewKeys.Main);
         }
 
-
-
-
         private void Navigate(string viewName, object parameter = null)
         {
             try

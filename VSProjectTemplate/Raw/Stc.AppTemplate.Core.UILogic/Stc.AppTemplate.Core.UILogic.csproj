@@ -62,11 +62,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectgroupname$.Common\$safeprojectname$.Common.csproj">
+    <ProjectReference Include="..\$safeprojectgroupname$.Common\$safeprojectgroupname$.Common.csproj">
       <Project>{6D4B18F1-202A-414A-B529-20033DF3CF92}</Project>
       <Name>$safeprojectgroupname$.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\$safeprojectgroupname$.Core.Services\$safeprojectname$.Core.Services.csproj">
+    <ProjectReference Include="..\$safeprojectgroupname$.Core.Services\$safeprojectgroupname$.Core.Services.csproj">
       <Project>{c05114c4-457a-477c-8d10-abc875d43b1c}</Project>
       <Name>$safeprojectgroupname$.Core.Services</Name>
     </ProjectReference>

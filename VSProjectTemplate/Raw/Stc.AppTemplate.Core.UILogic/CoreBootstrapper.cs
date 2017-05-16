@@ -1,6 +1,6 @@
 ﻿using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
-using $safeprojectname$.Common.Events;
+using $safeprojectgroupname$.Common.Events;
 using $safeprojectname$.Navigation;
 using $safeprojectname$.ViewModels;
 
