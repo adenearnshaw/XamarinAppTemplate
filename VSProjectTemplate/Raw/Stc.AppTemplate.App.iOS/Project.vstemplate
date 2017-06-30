@@ -1,0 +1,51 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Stc.AppTemplate.App.iOS</Name>
+    <Description>Xamarin Native iOS app</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Stc.AppTemplate.App.iOS</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Stc.AppTemplate.App.iOS.csproj" File="Stc.AppTemplate.App.iOS.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.cs">App.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppDelegate.cs">AppDelegate.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Entitlements.plist">Entitlements.plist</ProjectItem>
+      <Folder Name="Extensions" TargetFolderName="Extensions">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ViewExtensions.cs">ViewExtensions.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Info.plist">Info.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
+      <Folder Name="Navigation" TargetFolderName="Navigation">
+        <ProjectItem ReplaceParameters="true" TargetFileName="NavigationServiceFactory.cs">NavigationServiceFactory.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.xib">LaunchScreen.xib</ProjectItem>
+      </Folder>
+      <Folder Name="ViewControllers" TargetFolderName="ViewControllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BaseViewController.cs">BaseViewController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainViewController.cs">MainViewController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainViewController.designer.cs">MainViewController.designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ViewModelLocator.cs">ViewModelLocator.cs</ProjectItem>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Main.storyboard">Main.storyboard</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+      <WizardExtension>
+        <Assembly>Stc.AppTemplate.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2eb3e2b2e74517ed</Assembly>
+        <FullClassName>Stc.AppTemplate.Wizard.SafeProjectGroupName</FullClassName>
+    </WizardExtension>
+</VSTemplate>
